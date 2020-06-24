@@ -1,10 +1,16 @@
 /* Move headers to the middle */
-@media (min-width: 1400px) {
+@media (min-width: 1280px) {
   main > .pagehead > div,
   main > .pagehead > nav {
-    max-width: 1400px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+  }
+  main > .pagehead > nav > ul > li > a {
+   visibility: visible !important;
+  }
+  main > .pagehead > nav .js-responsive-underlinenav-overflow {
+    display: none;
   }
 }
 
@@ -45,10 +51,27 @@ body .avatar-user {
   border-bottom: 1px solid #d1d5da !important;
 }
 
+/* Issue counters and labels are too thin */
+
+main > .pagehead > nav .Counter {
+  font-weight: 600;
+}
+.IssueLabel {
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+/* Rows in Issues page have way too much whitespace */
+
+.js-issue-row.Box-row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* Classic buttons */
 
-body .btn.hover, body .btn:hover, body [open]>.btn { 
-  transition: none;
+body .btn {
+  transition: none !important;
 }
 
 body .btn {
@@ -64,6 +87,12 @@ body [open]>.btn, body .btn:active {
   border-color: rgba(27,31,35,0.35);
   box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15);
 }
+body .btn[disabled] {
+  cursor: not-allowed;
+  color: #959da5;
+  background: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+}
 
 
 body .btn-primary {
@@ -77,6 +106,12 @@ body [open]>.btn-primary, body .btn-primary:active {
   background: #279f43;
   border-color: rgba(27,31,35,0.5);
   box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15);
+}
+body .btn-primary[disabled] {
+  color: hsla(0,0%,100%,.8);
+  background: #94d3a2;
+  border-color: rgba(27,31,35,.1);
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), inset 0 1px 0 hsla(0,0%,100%,.03);
 }
 
 body .btn-danger {
@@ -94,6 +129,12 @@ body [open]>.btn-danger, body .btn-danger:active {
   border-color: rgba(27,31,35,.15);
   box-shadow: inset 0 1px 0 rgba(134,24,29,.2);
 }
+body .btn-danger[disabled] {
+  color: rgba(203,36,49,.5);
+  background: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
+}
 
 body .btn-outline {
   color: #0366d6;
@@ -110,4 +151,10 @@ body [open]>.btn-outline, body .btn-outline:active {
   background: #035fc7;
   border-color: rgba(27,31,35,.15);
   box-shadow: inset 0 1px 0 rgba(5,38,76,.2);
+}
+body .btn-outline[disabled] {
+  color: rgba(3,102,214,.5);
+  background: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
 }
