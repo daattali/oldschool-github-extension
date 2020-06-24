@@ -18,19 +18,19 @@ GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of th
 
 #### 3, 4, 5: add row separators, use classic buttons, remove circular images
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.PNG)
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.PNG)
 
 #### 1. Move headers to main content area
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.PNG)
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.PNG)
 
 #### 2. Highlight selected page in header
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.PNG)
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.PNG)
 
