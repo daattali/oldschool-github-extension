@@ -2,7 +2,16 @@
 
 > *Copyright 2020 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
-GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of the new UI that I (and many others) don't like and this extension brings back a few features from the classic GitHub look:
+_Source code available [on GitHub](https://github.com/daattali/oldschool-github-extension)_     
+_Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb)_  
+
+GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of the new UI that I (and many others) don't like and this extension brings back a few features from the classic GitHub look.
+
+## Installation
+
+Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) and click on the "Add to Chrome" button.
+
+## Features
 
 1. **Move headers to main content area:** In the June update, GitHub moved the header buttons ("Code"/"Issues"/"Pull Requests"/etc) to the far left of the page. This was only an issue if you have a big wide monitor because those buttons are now very very far from the rest of the page content. If you're on a laptop you probably won't notice the difference.
 
