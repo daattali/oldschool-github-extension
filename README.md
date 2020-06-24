@@ -14,12 +14,23 @@ GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of th
 
 5. **Remove circular user images:** This one isn't necessarily a bad change, but just to keep with the classic GitHub UI, I reverted the new circular user images to the old square (but with rounded corners) images.
 
-## Demo
+## Screenshots
 
-Screenshot from GitHub without the extension:
+#### 3, 4, 5: add row separators, use classic buttons, remove circular images
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-before1.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-before1.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.png)
 
-Screenshot using Old School GitHub:
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.png)
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-after.png)
+#### 1. Move headers to main content area
+
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.png)
+
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.png)
+
+#### 2. Highlight selected page in header
+
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.png)
+
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.png)
+
