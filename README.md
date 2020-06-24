@@ -31,7 +31,7 @@ Installation is extremely easy: just go to [the Chrome extension store](https://
 
 4. **Add row separators in file explorer:** The file explorer that shows all the files and folders currently has no borders between rows, making it harder to read the file list.
 
-5. **Remove circular user images:** The new `border-radius: 50% !important` setting results in unwanted rounding near the corners, cropping significant features from avatars which are intended to be square.
+5. **Remove circular user images:** The new circular user photos result in unwanted rounding near the corners, cropping significant features from photos that are intended to be square for some users.
 
 And many other UI fixes such as fix the text width of issue counters and issue label, fix the whitespace of issues, add a slight background to README title, and more.
 
