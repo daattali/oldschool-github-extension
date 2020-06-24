@@ -86,6 +86,7 @@ body .btn {
 body .btn {
   background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
   border: 1px solid rgba(27,31,35,0.2);
+  border-radius: 3px;
 }
 body .btn:hover {
   background: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
