@@ -41,8 +41,8 @@
 }
 
 /* Remove rounded edges */
-.Box, .Box-header {
-	border-radius: 0px !important;
+.repository-content .Box, .repository-content .Box-header {
+  border-radius: 0px !important;
 }
 
 /* Remove the circular user images */
