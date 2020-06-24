@@ -42,7 +42,7 @@
 
 /* Remove rounded edges */
 .repository-content .Box, .repository-content .Box-header {
-  border-radius: 0px !important;
+  border-radius: 3px !important;
 }
 
 /* Remove the circular user images */
