@@ -18,7 +18,7 @@ GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of th
 
 Screenshot from GitHub without the extension:
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-before.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-before.png)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-before1.png)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-before1.png)
 
 Screenshot using Old School GitHub:
 
