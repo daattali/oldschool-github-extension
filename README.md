@@ -26,11 +26,11 @@ vs
 
 #### 1. Move headers to main content area
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-before.PNG)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-before.PNG)
 
 vs
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-after.PNG)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-after.PNG)
 
 #### 2. Highlight selected page in header
 
