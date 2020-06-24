@@ -1,9 +1,9 @@
-# Old School GitHub (Chrome extension)
+# Old School GitHub (Chrome / Firefox extension)
 
 > *Copyright 2020 [Dean Attali](https://deanattali.com). Licensed under the MIT license.*
 
 _Source code available [on GitHub](https://github.com/daattali/oldschool-github-extension)_     
-_Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb)_  
+_Get the [Chrome extension](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-on](https://addons.mozilla.org/addon/old-school-github/)_  
 
 GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of the new UI that I (and many others) don't like and this extension brings back a few features from the classic GitHub look.
 
@@ -19,7 +19,7 @@ GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of th
 
 ## Installation
 
-Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) and click on the "Add to Chrome" button.
+Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-ons page](https://addons.mozilla.org/addon/old-school-github/) and install with one button click there.
 
 ## Features
 
