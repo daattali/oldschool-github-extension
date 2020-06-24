@@ -1,16 +1,14 @@
-@media (min-width: 1280px) {
+/* Move headers to the middle */
+@media (min-width: 1400px) {
   main > .pagehead > div,
   main > .pagehead > nav {
-    max-width: 1280px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.js-active-navigation-container .Box-row.border-top-0 {
-  border-top: 1px solid #e1e4e8 !important;
-}
-
+/* Highlight the selected page in the header */
 .UnderlineNav-item.selected {
   border-radius: 3px 3px 0 0;
   background: #fff;
@@ -21,6 +19,12 @@
   padding-top: 3px;
 }
 
+/* Add the row separators in the list of files on a repo's main page */
+.js-active-navigation-container .Box-row.border-top-0 {
+  border-top: 1px solid #e1e4e8 !important;
+}
+
+/* Remove the circular user images */
 body .avatar-user {
   border-radius: 6px !important;
 }
