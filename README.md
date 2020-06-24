@@ -1,11 +1,21 @@
 # Old School GitHub (Chrome extension)
 
-> *Copyright 2020 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
+> *Copyright 2020 [Dean Attali](https://deanattali.com). Licensed under the MIT license.*
 
 _Source code available [on GitHub](https://github.com/daattali/oldschool-github-extension)_     
 _Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb)_  
 
 GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of the new UI that I (and many others) don't like and this extension brings back a few features from the classic GitHub look.
+
+<p align="center">
+
+<a style="display: inline-block;" href="https://paypal.me/daattali">
+<img height="35" src="https://camo.githubusercontent.com/0e9e5cac101f7093336b4589c380ab5dcfdcbab0/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f74776f6c66736f6e2f70617970616c2d6769746875622d627574746f6e40312e302e302f646973742f627574746f6e2e737667" />
+</a>
+<a style="display: inline-block; margin-left: 10px;" href="https://github.com/sponsors/daattali">
+<img height="35" src="https://i.imgur.com/034B8vq.png" /> </a>
+
+</p>
 
 ## Installation
 
@@ -49,3 +59,12 @@ vs
 
 [![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.PNG)
 
+## My other extensions
+
+[GitHub Diff Navigator](https://github.com/daattali/github-diff-navigator-extension) - Chrome extension that allows you to easily navigate through the changes in a file that has been edited on GitHub.
+
+[Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
+
+---
+
+To see my other projects, visit [https://deanattali.com/projects](https://deanattali.com/projects)
