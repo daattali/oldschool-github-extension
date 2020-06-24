@@ -20,17 +20,23 @@ GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of th
 
 [![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-before.PNG)
 
+vs
+
 [![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-main-after.PNG)
 
 #### 1. Move headers to main content area
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.PNG)
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-before.PNG)
 
-[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.PNG)
+vs
+
+[![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-borders-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-headers-after.PNG)
 
 #### 2. Highlight selected page in header
 
 [![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-before.PNG)
+
+vs
 
 [![](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.PNG)](https://github.com/daattali/oldschool-github-extension/blob/master/img/doc/screenshot-selected-after.PNG)
 
