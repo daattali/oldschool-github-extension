@@ -65,7 +65,7 @@ This was written in just a couple hours and does not deal with some of the bigge
 
 ## My other extensions
 
-[GitHub Diff Navigator](https://github.com/daattali/github-diff-navigator-extension) - Chrome extension that allows you to easily navigate through the changes in a file that has been edited on GitHub.
+[GitHub Diff Navigator](https://github.com/daattali/github-diff-navigator-extension) - Chrome/Firefox extension that allows you to easily navigate through the changes in a file that has been edited on GitHub.
 
 [Google Slides Auto Resize Speaker Notes](https://github.com/daattali/gslides-betternotes-extension) - the slides thumbnails in the Speaker Notes window of Google Slides are tiny. This extension dynamically resizes the slides to be more readable based on the window size.
 
