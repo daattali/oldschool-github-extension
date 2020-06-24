@@ -40,6 +40,11 @@
   padding-bottom: 10px;
 }
 
+/* Remove rounded edges */
+.Box, .Box-header {
+	border-radius: 0px !important;
+}
+
 /* Remove the circular user images */
 body .avatar-user {
   border-radius: 6px !important;
