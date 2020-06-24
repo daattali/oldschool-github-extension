@@ -1,2 +1,3 @@
-# oldschool-github-extension
-GitHub changed their UI on 2020-06-23, this extension brings a few items back to their old look
+# Old School GitHub (Chrome extension)
+
+> *Copyright 2020 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*

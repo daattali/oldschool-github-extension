@@ -1,0 +1,26 @@
+@media (min-width: 1280px) {
+  main > .pagehead > div,
+  main > .pagehead > nav {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.js-active-navigation-container .Box-row.border-top-0 {
+  border-top: 1px solid #e1e4e8 !important;
+}
+
+.UnderlineNav-item.selected {
+  border-radius: 3px 3px 0 0;
+  background: #fff;
+  border-left: 1px solid #e1e4e8;
+  border-right: 1px solid #e1e4e8;
+  border-bottom: none;
+  border-top: 3px solid #f9826c;
+  padding-top: 3px;
+}
+
+body .avatar-user {
+  border-radius: 6px !important;
+}
