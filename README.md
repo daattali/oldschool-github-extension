@@ -33,6 +33,8 @@ Installation is extremely easy: just go to [the Chrome extension store](https://
 
 5. **Remove circular user images:** This one isn't necessarily a bad change, but just to keep with the classic GitHub UI, I reverted the new circular user images to the old square (but with rounded corners) images.
 
+And many other UI fixes such as fix the text width of issue counters and issue label, fix the whitespace of issues, add a slight background to README title, and more.
+
 ## Screenshots
 
 #### 3, 4, 5: add row separators, use classic buttons, remove circular images
