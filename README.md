@@ -35,6 +35,10 @@ Installation is extremely easy: just go to [the Chrome extension store](https://
 
 And many other UI fixes such as fix the text width of issue counters and issue label, fix the whitespace of issues, add a slight background to README title, and more.
 
+## Limitations
+
+A common question is whether the repository sidebar can be moved to be above the main code section, like it was previously. Unfortunately that is not possible (or extremely difficult). This extension can change the look of existing items on the page, but it cannot change the layout of the page by moving things around.
+
 ## Screenshots
 
 #### 3, 4, 5: add row separators, use classic buttons, remove circular images
