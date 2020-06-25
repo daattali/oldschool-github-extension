@@ -17,6 +17,11 @@
   }
 }
 
+/* Slightly more compact header tabs */
+.UnderlineNav-body .UnderlineNav-item {
+  padding: 5px 14px 3px;
+}
+
 /* Highlight the selected page in the header */
 .UnderlineNav-item.selected {
   border-radius: 3px 3px 0 0;
@@ -26,11 +31,6 @@
   border-bottom: none;
   border-top: 3px solid #e36209;
   padding-top: 0;
-}
-
-/* Slightly more compact header tabs */
-.UnderlineNav-body .UnderlineNav-item {
-  padding: 5px 14px 3px;
 }
 
 /* Add the row separators in the list of files on a repo's main page */
