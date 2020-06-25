@@ -67,8 +67,8 @@ body .avatar-user {
 }
 
 /* Box border was slightly darker in classic design */
-.Box {
-  border-color: #d1d5da !important;
+body .Box {
+  border-color: #d1d5da;
 }
 
 /* README should have a slight background */
