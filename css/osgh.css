@@ -1,5 +1,8 @@
 /* Move headers to the middle */
 @media (min-width: 1280px) {
+  main > .pagehead {
+    box-shadow: inset 0 -1px 0 #e1e4e8;
+  }
   main > .pagehead > div,
   main > .pagehead > nav {
     max-width: 1280px;
