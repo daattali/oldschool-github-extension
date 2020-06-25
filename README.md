@@ -31,7 +31,7 @@ Go to the [Chrome extension store](https://chrome.google.com/webstore/detail/old
 
 2. **Highlight selected page in header:** Prior to the update, the selected page you're on was clearly highlighted. The update made the current page selection much more subtle.
 
-3. **Classic-syle buttons:** The old buttons had depth, and the new buttons are flat and look less clickable. 
+3. **Classic-syle buttons:** The old buttons had depth and bold font, and the new buttons are flat and look less clickable.
 
 4. **Add row separators in file explorer:** The file explorer that shows all the files and folders currently has no borders between rows, making it harder to read the file list.
 
