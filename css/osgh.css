@@ -34,8 +34,8 @@
 }
 
 /* Add the row separators in the list of files on a repo's main page */
-.js-active-navigation-container .Box-row.border-top-0 {
-  border-top: 1px solid #e1e4e8 !important;
+.js-active-navigation-container .Box-row.border-top-0 + .Box-row.border-top-0 {
+  border-top: 1px solid #eaecef !important;
 }
 
 /* Slightly more compact file list rows and box headers */
@@ -53,10 +53,15 @@ body .avatar-user {
   border-radius: 6px !important;
 }
 
+/* Box border was slightly darker in classic design */
+.Box {
+  border-color: #d1d5da !important;
+}
+
 /* README should have a slight background */
 #readme .Box-header {
   background: #f6f8fa !important;
-  border-bottom: 1px solid #d1d5da !important;
+  border: 1px solid #d1d5da !important;
 }
 
 /* Issue counters and labels are too thin */
