@@ -43,6 +43,10 @@
   padding-top: 6px !important;
   padding-bottom: 6px !important;
 }
+.js-active-navigation-container .Box-row.p-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
 .repository-content .gutter-condensed .Box .Box-header {
   padding-top: 10px;
   padding-bottom: 10px;
