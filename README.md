@@ -8,7 +8,7 @@ _Install the [Chrome extension](https://chrome.google.com/webstore/detail/old-sc
 GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of the new UI that I (and many others) don't like and this extension brings back a few features from the classic GitHub look.
 
 
-**If you enjoy my work (or want to get special perks), you should [support me on GitHub](https://github.com/sponsors/daattali)**
+**If you enjoy my work (or just want to get special perks@), you should [support me on GitHub](https://github.com/sponsors/daattali).**
 
 
 <p align="center">
