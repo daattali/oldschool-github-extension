@@ -25,7 +25,12 @@
   border-right: 1px solid #e1e4e8;
   border-bottom: none;
   border-top: 3px solid #e36209;
-  padding-top: 3px;
+  padding-top: 0;
+}
+
+/* Slightly more compact header tabs */
+.UnderlineNav-body .UnderlineNav-item {
+  padding: 5px 14px 3px;
 }
 
 /* Add the row separators in the list of files on a repo's main page */
