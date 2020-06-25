@@ -23,7 +23,7 @@ GitHub rolled out a brand new UI on June 23, 2020. There are a few aspects of th
 
 ## Installation
 
-Installation is extremely easy: just go to [the Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-ons page](https://addons.mozilla.org/addon/old-school-github/) and install instantly with one click.
+Go to the [Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-ons page](https://addons.mozilla.org/addon/old-school-github/) to instantly install with one click.
 
 ## Features
 
