@@ -1,8 +1,8 @@
 {
   "name": "Old School GitHub",
-  "version": "1.1",
+  "version": "1.2",
   "manifest_version": 2,
-  "description": "GitHub changed their UI on 2020-06-23, this extension brings a few items back to their classic look",
+  "description": "GitHub changed their UI on 2020-06-23, this extension brings a few items back to their classic look.",
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
