@@ -42,11 +42,11 @@
 
 /* Remove rounded edges */
 .repository-content .Box {
-  border-radius: 3px !important;
+  border-radius: 3px;
 }
 .repository-content .Box-header {
-  border-top-left-radius: 3px !important;
-  border-top-right-radius: 3px !important;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   margin-bottom: -1px;
 }
 
