@@ -13,7 +13,8 @@
       "matches": [
         "https://github.com/*"
       ],
-	  "css": ["css/osgh.css"]
+      "css": ["css/osgh.css"],
+      "run_at": "document_start"
     }
   ],
   "homepage_url": "https://github.com/daattali/oldschool-github-extension"
