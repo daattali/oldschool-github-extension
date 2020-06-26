@@ -17,13 +17,13 @@
   }
 }
 
-/* Slightly more compact header tabs */
-.UnderlineNav-body .UnderlineNav-item {
+/* Slightly more compact header tabs (excluding sticky header on user profile page) */
+body:not(.page-profile) .UnderlineNav-body .UnderlineNav-item {
   padding: 5px 14px 3px;
 }
 
-/* Highlight the selected page in the header */
-.UnderlineNav-item.selected {
+/* Highlight the selected page in the header (excluding sticky header on user profile page) */
+body:not(.page-profile) .UnderlineNav-item.selected {
   border-radius: 3px 3px 0 0;
   background: #fff;
   border-left: 1px solid #e1e4e8;
