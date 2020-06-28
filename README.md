@@ -5,7 +5,7 @@
 
 _Install the [Chrome extension](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-on](https://addons.mozilla.org/addon/old-school-github/)_  
 
-GitHub rolled out a brand new UI on June 23, 2020. There are some aspects of the new UI that many people don't like, so this extension reverts many components back to their classic look.
+GitHub rolled out a brand new UI on June 23, 2020 that introduced a flat, rounded, and more whitespaced design. There are some aspects of the new UI that many people don't like, so this extension reverts most of GitHub to its classic look.
 
 
 **If you enjoy my work (or just want to get special perks!), you should [support me on GitHub](https://github.com/sponsors/daattali).**
@@ -27,15 +27,15 @@ Go to the [Chrome extension store](https://chrome.google.com/webstore/detail/old
 
 ## Features
 
-1. **Move headers to main content area:** In the June update, GitHub moved the header buttons ("Code"/"Issues"/"Pull Requests"/etc) to the far left of the page. This was only an issue if you have a big wide monitor because those buttons are now very very far from the rest of the page content. If you're on a laptop you probably won't notice the difference.
+1. **Move header tabs to main content area:** In the June update, GitHub moved the header buttons ("Code"/"Issues"/"Pull Requests"/etc) to the far left of the page. This became an issue if you have a big wide monitor because those buttons are now very very far from the rest of the page content. If you're on a laptop you probably won't notice the difference.
 
 2. **Highlight selected page in header:** Prior to the update, the selected page you're on was clearly highlighted. The update made the current page selection much more subtle.
 
-3. **Classic-syle buttons:** The old buttons had depth and bold font, and the new buttons are flat and look less clickable.
+3. **Classic-syle buttons and labels:** The old buttons had depth and bold font, and the new buttons are flat and look less clickable.
 
 4. **Add row separators in file explorer:** The file explorer that shows all the files and folders currently has no borders between rows, making it harder to read the file list.
 
-5. **Remove circular user images:** The new circular user photos result in unwanted rounding near the corners, cropping significant features from photos that are intended to be square for some users.
+5. **Remove circular user images and rounded corners everywhere:** The new circular user photos result in unwanted rounding near the corners, cropping significant features from photos that are intended to be square for some users. Many other items were also made very round.
 
 And many other UI fixes such as fix the text width of issue counters and issue label, fix the whitespace of issues, add a slight background to README title, and more.
 

@@ -1,8 +1,8 @@
 {
   "name": "Old School GitHub",
-  "version": "1.2",
+  "version": "1.3",
   "manifest_version": 2,
-  "description": "GitHub changed their UI on 2020-06-23; this extension reverts many components back to their classic look.",
+  "description": "Revert GitHub's UI back to its classic look (before the June 23, 2020 update that has a flat, rounded and more whitespaced design).",
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
