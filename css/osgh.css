@@ -52,7 +52,7 @@ body:not(.page-profile) .UnderlineNav-item.selected {
   padding-bottom: 10px;
 }
 
-/* Remove rounded edges */
+/* Content boxes border radius revert */
 .repository-content .Box {
   border-radius: 3px;
 }
@@ -61,9 +61,48 @@ body:not(.page-profile) .UnderlineNav-item.selected {
   border-top-right-radius: 3px;
 }
 
+/* Buttons border radius revert - excluding button groups and other special buttons */
+/*  
+  By chaining all these :not() selectors this rule is very specific and hard to override.
+  So it will need to grown even longer as more button types need to be excluded.
+  It's possible that setting all button border radiuses to 3px and then overriding where they
+  should be square would be a better approach.
+*/
+:not(.input-group-button) > :not(.BtnGroup):not(.subnav-search-context):not(.input-group-button)
+> .btn:not(.BtnGroup-item):not(.btn-with-count):not(.get-repo-btn) {
+  border-radius: 3px; 
+}
+
+/* Button groups & special buttons border radius revert - only affects specific corners */
+body .BtnGroup-item:first-child,
+body .BtnGroup-parent:first-child .BtnGroup-item,
+.input-group .input-group-button:first-child .btn,
+body .subnav-item:first-child,
+.subnav-search-context .btn,
+body .btn.btn-with-count {
+  border-radius: 3px 0 0 3px;
+}
+body .BtnGroup-item:last-child, 
+body .BtnGroup-parent:last-child .BtnGroup-item,
+.input-group .input-group-button:last-child .btn,
+body .subnav-item:last-child,
+.subnav-search-context + .subnav-search .subnav-search-input,
+body .social-count {
+  border-radius: 0 3px 3px 0;
+}
+
+/* Status/state and issue labels border radius revert */
+body .IssueLabel {
+  border-radius: 2px;
+}
+body .IssueLabel--big.lh-condensed, 
+body .State {
+  border-radius: 3px;
+}
+
 /* Remove the circular user images */
 body .avatar-user {
-  border-radius: 6px !important;
+  border-radius: 3px !important;
 }
 
 /* Box border was slightly darker in classic design */
@@ -77,13 +116,10 @@ body .Box {
   border: 1px solid #d1d5da !important;
 }
 
-/* Issue counters and labels are too thin */
-
-main > .pagehead > nav .Counter {
-  font-weight: 600;
-}
+/* Font weight revert for issue counters and labels */
+main > .pagehead > nav .Counter,
+body .IssueLabel--big.lh-condensed,
 .IssueLabel {
-  border-radius: 2px;
   font-weight: 600;
 }
 
@@ -99,11 +135,9 @@ main > .pagehead > nav .Counter {
 body .btn {
   transition: none !important;
   font-weight: 600;
-}
-
-body .btn {
   background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
-  border: 1px solid rgba(27,31,35,0.2);
+  /* Set only border color here (not width) to avoid adding extra borders that shouldn't exists */
+  border-color: rgba(27,31,35,0.2);  
 }
 body .btn:hover {
   background: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
@@ -167,7 +201,7 @@ body .btn-outline {
   color: #0366d6;
   background: #fff;
 }
-body .btn-outline:hover {
+body .btn-outline:hover, body .full-commit .btn-outline:not(:disabled):hover {
   color: #fff; 
   background: #0366d6;
   border-color: rgba(27,31,35,.15);
@@ -194,7 +228,7 @@ body .btn-outline[disabled] {
   margin: 4px 0 0;
 }
 .user-status-circle-badge-container .user-status-circle-badge {
-  border-radius: 6px;
+  border-radius: 3px;
   width: 100%;
 }
 body .user-status-circle-badge .user-status-message-wrapper {
