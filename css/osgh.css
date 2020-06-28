@@ -74,28 +74,29 @@ body:not(.page-profile) .UnderlineNav-item.selected {
 }
 
 /* Button groups & special buttons border radius revert - only affects specific corners */
-div .BtnGroup-item:first-child,
-div .BtnGroup-parent:first-child .BtnGroup-item,
+body .BtnGroup-item:first-child,
+body .BtnGroup-parent:first-child .BtnGroup-item,
 .input-group .input-group-button:first-child .btn,
-div .subnav-item:first-child,
+body .subnav-item:first-child,
 .subnav-search-context .btn,
 body .btn.btn-with-count {
   border-radius: 3px 0 0 3px;
 }
-div .BtnGroup-item:last-child, 
-div .BtnGroup-parent:last-child .BtnGroup-item,
+body .BtnGroup-item:last-child, 
+body .BtnGroup-parent:last-child .BtnGroup-item,
 .input-group .input-group-button:last-child .btn,
-div .subnav-item:last-child,
+body .subnav-item:last-child,
 .subnav-search-context + .subnav-search .subnav-search-input,
 body .social-count {
   border-radius: 0 3px 3px 0;
 }
 
 /* Status/state and issue labels border radius revert */
-div .IssueLabel {
+body .IssueLabel {
   border-radius: 2px;
 }
-div .IssueLabel--big.lh-condensed, div .State {
+body .IssueLabel--big.lh-condensed, 
+body .State {
   border-radius: 3px;
 }
 
@@ -117,7 +118,7 @@ body .Box {
 
 /* Font weight revert for issue counters and labels */
 main > .pagehead > nav .Counter,
-div .IssueLabel--big.lh-condensed,
+body .IssueLabel--big.lh-condensed,
 .IssueLabel {
   font-weight: 600;
 }
