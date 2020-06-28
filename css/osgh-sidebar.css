@@ -1,0 +1,92 @@
+/* Move sidebar to the top*/
+
+body .repository-content > :not(.js-check-all-container).gutter-condensed.flex-column {
+    display: table !important;
+  }
+  body .repository-content .flex-shrink-0.col-md-3 {
+    display: table-header-group !important;
+  }
+  body .repository-content .flex-shrink-0.col-md-9 {
+    display: table-footer-group !important;
+  }
+  body .repository-content .flex-shrink-0.col-md-9 #readme {
+    margin: 5px !important;
+  }
+  
+  
+  
+  
+  body .repository-content .mt-3, body .repository-content .mb-3 {
+    margin: 5px !important;
+  }
+  
+  body .repository-content .BorderGrid-row .BorderGrid-cell{
+    padding: 0px !important;
+  }
+  
+  /*.BorderGrid-row.hide-sm.hide-md  this is the about section*/
+  body .repository-content .BorderGrid-row:nth-child(1) .BorderGrid-cell .mb-3.h4 {
+    display: none !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-child(1) .BorderGrid-cell p.mt-3,  
+  body .repository-content .BorderGrid-row:nth-child(1) .BorderGrid-cell div.d-flex {
+    display: inline-flex !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-child(1) .BorderGrid-cell div.d-flex svg {
+    display: none !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-child(1) .BorderGrid-cell{
+    width: 1% !important;
+    padding-top: 10px !important;
+  }
+  
+  body .repository-content .BorderGrid-row .BorderGrid-cell a,
+  body .repository-content .BorderGrid-row .BorderGrid-cell a .Counter {
+    border-radius: 0 !important;
+  }
+  
+  /* Readme and license on same line*/
+  body .repository-content .BorderGrid-row:nth-child(1) > .BorderGrid-cell > div.mt-3:nth-last-child(-n+3) {
+    display: inline-flex !important;
+  }
+  
+  /*Ignore first row (about) and last row (languages)*/
+  body .repository-content .BorderGrid-row:nth-child(n+2):nth-last-child(n+2) {
+    display: inline-flex !important;
+    padding-right: 100px;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-child(n+2):nth-last-child(n+2) > .BorderGrid-cell > :not(.mb-3){
+    display: none !important;
+  }
+  
+  /* Languages */
+  body .repository-content .BorderGrid-row:nth-last-child(1) {
+    display: block !important;
+    width: 100% !important;
+    margin: 8px 0px 30px 0px !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-last-child(1) ul.list-style-none{
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-last-child(1) .mb-3.h4 {
+    display: none !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-last-child(1) > .BorderGrid-cell {
+    width: 1% !important;
+  }
+  
+  body .repository-content .BorderGrid-row:nth-last-child(1) > .BorderGrid-cell .mb-2 {
+    margin: 5px !important;
+  }
+  
+  body .repository-content .BorderGrid-cell {
+    border: 1px #e1e4e8 !important;
+  }

@@ -16,6 +16,13 @@
       ],
       "css": ["css/osgh.css"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://github.com/*/*"],
+      "exclude_globs": ["https://github.com/*/*/settings*",
+                        "https://github.com/*/*/community*"],
+      "css": ["css/osgh-sidebar.css"],
+      "run_at": "document_start"
     }
   ],
   "homepage_url": "https://github.com/daattali/oldschool-github-extension"
