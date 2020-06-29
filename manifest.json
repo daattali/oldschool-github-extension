@@ -12,7 +12,7 @@
     {
       "matches": [
         "https://github.com/*",
-        "https://gist.gihub.com/*"
+        "https://gist.github.com/*"
       ],
       "css": ["css/osgh.css"],
       "run_at": "document_start"
