@@ -56,7 +56,7 @@ body:not(.page-profile) .UnderlineNav-item.selected {
 .repository-content .Box {
   border-radius: 3px;
 }
-.repository-content .Box .Box-header {
+.repository-content .Box .Box-header, body .Box-row:first-of-type {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -106,7 +106,7 @@ body .avatar-user {
 }
 
 /* Box border was slightly darker in classic design */
-body .Box, body .Box-header {
+body .Box:not(.Box--danger), body .Box-header {
   border-color: #d1d5da;
 }
 
