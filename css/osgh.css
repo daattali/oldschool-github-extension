@@ -53,10 +53,10 @@ body:not(.page-profile) .UnderlineNav-item.selected {
 }
 
 /* Content boxes border radius revert */
-.repository-content .Box {
+body .Box {
   border-radius: 3px;
 }
-.repository-content .Box .Box-header, body .Box-row:first-of-type {
+body .Box .Box-header, body .Box-row:first-of-type {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -108,6 +108,10 @@ body .avatar-user {
 /* Box border was slightly darker in classic design */
 body .Box:not(.Box--danger), body .Box-header {
   border-color: #d1d5da;
+}
+/* Hide duplicated red top border of danger boxes - probably a github oversight */
+body .Box--danger .Box-row:first-of-type {
+  border-top-color: transparent;
 }
 
 /* Form field borders were slightly darker in classic design */
