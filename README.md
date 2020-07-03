@@ -3,7 +3,7 @@
 > *Copyright 2020 [Dean Attali](https://deanattali.com)*
 
 
-_Install the [Chrome extension](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-on](https://addons.mozilla.org/addon/old-school-github/)_  
+_Install the [Chrome extension](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-on](https://addons.mozilla.org/addon/old-school-github/)_
 
 GitHub rolled out a brand new UI on June 23, 2020 that introduced a flat, rounded, and more whitespaced design. There are some aspects of the new UI that many people don't like, so this extension reverts most of GitHub to its classic look.
 
@@ -25,6 +25,8 @@ GitHub rolled out a brand new UI on June 23, 2020 that introduced a flat, rounde
 
 Go to the [Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-ons page](https://addons.mozilla.org/addon/old-school-github/) to instantly install with one click.
 
+Also available as [user style](css/osgh.user.css?raw=true).
+
 ## Features
 
 1. **Move header tabs to main content area:** In the June update, GitHub moved the header buttons ("Code"/"Issues"/"Pull Requests"/etc) to the far left of the page. This became an issue if you have a big wide monitor because those buttons are now very very far from the rest of the page content. If you're on a laptop you probably won't notice the difference.
@@ -41,7 +43,7 @@ And many other UI fixes such as fix the text width of issue counters and issue l
 
 ## Limitations
 
-This extension can change the look of existing items on the page, but it cannot change the layout of the page by moving things around. 
+This extension can change the look of existing items on the page, but it cannot change the layout of the page by moving things around.
 
 For example, a common question is whether the repository sidebar can be moved to be above the main code section, like it was previously. Unfortunately that is not possible with this extension.
 

@@ -1,0 +1,259 @@
+/* ==UserStyle==
+@name         Old School GitHub
+@version      1.4.0
+@description  Reverts most of GitHub to its classic look
+@license      MIT
+@author       daattali
+@homepageURL  https://github.com/daattali/oldschool-github-extension
+@namespace    daattali
+==/UserStyle== */
+
+@-moz-document url-prefix("https://github.com/"), url-prefix("https://gist.github.com/") {
+/* Move headers to the middle */
+@media (min-width: 1280px) {
+  main > .pagehead {
+    box-shadow: inset 0 -1px 0 #e1e4e8;
+  }
+  main > .pagehead > div,
+  main > .pagehead > nav {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main > .pagehead > nav > ul > li > a {
+   visibility: visible !important;
+  }
+  main > .pagehead > nav .js-responsive-underlinenav-overflow {
+    display: none;
+  }
+}
+
+/* Slightly more compact header tabs (excluding sticky header on user profile page) */
+body:not(.page-profile) .UnderlineNav-body .UnderlineNav-item {
+  padding: 5px 14px 3px;
+}
+
+/* Highlight the selected page in the header (excluding sticky header on user profile page) */
+body:not(.page-profile) .UnderlineNav-item.selected {
+  border-radius: 3px 3px 0 0;
+  background: #fff;
+  border-left: 1px solid #e1e4e8;
+  border-right: 1px solid #e1e4e8;
+  border-bottom: none;
+  border-top: 3px solid #e36209;
+  padding-top: 0;
+}
+
+/* Add the row separators in the list of files on a repo's main page */
+.js-active-navigation-container .Box-row + .Box-row {
+  border-top: 1px solid #eaecef !important;
+}
+
+/* Slightly more compact file list rows and box headers */
+.js-active-navigation-container .Box-row {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+.js-active-navigation-container .Box-row.p-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.repository-content .gutter-condensed .Box .Box-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Content boxes border radius revert */
+.repository-content .Box {
+  border-radius: 3px;
+}
+.repository-content .Box .Box-header {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* Buttons border radius revert - excluding button groups and other special buttons */
+/*
+  By chaining all these :not() selectors this rule is very specific and hard to override.
+  So it will need to grown even longer as more button types need to be excluded.
+  It's possible that setting all button border radiuses to 3px and then overriding where they
+  should be square would be a better approach.
+*/
+:not(.input-group-button) > :not(.BtnGroup):not(.subnav-search-context):not(.input-group-button)
+> .btn:not(.BtnGroup-item):not(.btn-with-count):not(.get-repo-btn) {
+  border-radius: 3px;
+}
+
+/* Button groups & special buttons border radius revert - only affects specific corners */
+body .BtnGroup-item:first-child,
+body .BtnGroup-parent:first-child .BtnGroup-item,
+.input-group .input-group-button:first-child .btn,
+body .subnav-item:first-child,
+.subnav-search-context .btn,
+body .btn.btn-with-count {
+  border-radius: 3px 0 0 3px;
+}
+body .BtnGroup-item:last-child,
+body .BtnGroup-parent:last-child .BtnGroup-item,
+.input-group .input-group-button:last-child .btn,
+body .subnav-item:last-child,
+.subnav-search-context + .subnav-search .subnav-search-input,
+body .social-count {
+  border-radius: 0 3px 3px 0;
+}
+
+/* Status/state and issue labels border radius revert */
+body .IssueLabel {
+  border-radius: 2px;
+}
+body .IssueLabel--big.lh-condensed,
+body .State {
+  border-radius: 3px;
+}
+
+/* Remove the circular user images */
+body .avatar-user {
+  border-radius: 3px !important;
+}
+
+/* Box border was slightly darker in classic design */
+body .Box {
+  border-color: #d1d5da;
+}
+
+/* README should have a slight background */
+#readme .Box-header {
+  background: #f6f8fa !important;
+  border: 1px solid #d1d5da !important;
+}
+
+/* Font weight revert for issue counters and labels */
+main > .pagehead > nav .Counter,
+body .IssueLabel--big.lh-condensed,
+.IssueLabel {
+  font-weight: 600;
+}
+
+/* Rows in Issues page have way too much whitespace */
+
+.js-issue-row.Box-row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Classic buttons */
+
+body .btn {
+  transition: none !important;
+  font-weight: 600;
+  background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+  /* Set only border color here (not width) to avoid adding extra borders that shouldn't exists */
+  border-color: rgba(27,31,35,0.2);
+}
+body .btn:hover {
+  background: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+  border-color: rgba(27,31,35,0.35);
+}
+body [open]>.btn, body .btn:active {
+  background: #e9ecef;
+  border-color: rgba(27,31,35,0.35);
+  box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15);
+}
+body .btn[disabled] {
+  cursor: not-allowed;
+  color: #959da5;
+  background: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+}
+
+
+body .btn-primary {
+  background: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+}
+body .btn-primary:hover {
+  background: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
+  border-color: rgba(27,31,35,0.5);
+}
+body [open]>.btn-primary, body .btn-primary:active {
+  background: #279f43;
+  border-color: rgba(27,31,35,0.5);
+  box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15);
+}
+body .btn-primary[disabled] {
+  color: hsla(0,0%,100%,.8);
+  background: #94d3a2;
+  border-color: rgba(27,31,35,.1);
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), inset 0 1px 0 hsla(0,0%,100%,.03);
+}
+
+body .btn-danger {
+  color: #cb2431;
+}
+body .btn-danger:hover {
+  color: #fff;
+  background: #cb2431;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), inset 0 1px 0 hsla(0,0%,100%,.03);
+}
+body [open]>.btn-danger, body .btn-danger:active {
+  color: #fff;
+  background: #be222e;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: inset 0 1px 0 rgba(134,24,29,.2);
+}
+body .btn-danger[disabled] {
+  color: rgba(203,36,49,.5);
+  background: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
+}
+
+body .btn-outline {
+  color: #0366d6;
+  background: #fff;
+}
+body .btn-outline:hover, body .full-commit .btn-outline:not(:disabled):hover {
+  color: #fff;
+  background: #0366d6;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), inset 0 1px 0 hsla(0,0%,100%,.03);
+}
+body [open]>.btn-outline, body .btn-outline:active {
+  color: #fff;
+  background: #035fc7;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: inset 0 1px 0 rgba(5,38,76,.2);
+}
+body .btn-outline[disabled] {
+  color: rgba(3,102,214,.5);
+  background: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
+}
+
+/* User profile page: move status badge back below avatar image */
+.user-status-container .user-status-circle-badge-container {
+  position: unset;
+  width: auto;
+  height: auto;
+  margin: 4px 0 0;
+}
+.user-status-circle-badge-container .user-status-circle-badge {
+  border-radius: 3px;
+  width: 100%;
+}
+body .user-status-circle-badge .user-status-message-wrapper {
+  width: 100%;
+  opacity: 1;
+}
+body .user-status-circle-badge-container .user-status-emoji-container {
+  margin-right: 8px !important;
+}
+body .user-status-circle-badge-container .user-status-circle-badge,
+body .user-status-circle-badge-container:hover .user-status-circle-badge {
+  box-shadow: none;
+}
+.user-status-message-wrapper .css-truncate.css-truncate-target {
+  white-space: auto;
+}
+}
