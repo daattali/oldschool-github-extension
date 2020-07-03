@@ -25,7 +25,7 @@ GitHub rolled out a brand new UI on June 23, 2020 that introduced a flat, rounde
 
 Go to the [Chrome extension store](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox add-ons page](https://addons.mozilla.org/addon/old-school-github/) to instantly install with one click.
 
-Also available as [user style](css/osgh.user.css?raw=true).
+Also available as [user style](css/osgh.user.css?raw=true), which you can use with a user style manager such as [Stylus](https://github.com/openstyles/stylus#releases).
 
 ## Features
 
