@@ -43,9 +43,9 @@ And many other UI fixes such as fix the text width of issue counters and issue l
 
 This extension can change the look of existing items on the page, but it cannot change the layout of the page by moving things around. 
 
-For example, a common question is whether the repository sidebar can be moved to be above the main code section, like it was previously. Unfortunately that is not possible (or extremely difficult). 
+For example, a common question is whether the repository sidebar can be moved to be above the main code section, like it was previously. Unfortunately that is not possible with this extension.
 
-The reason is because of the strange way GitHub handles internal links: some pages are actual page reloads, but some pages are fully loaded with AJAX. This makes it impossible to use JavaScript to fix any UI issues, and only CSS can be used. If you're on the Code tab and you click on Pull Requests then you don't actually refresh the page, but if you click on Issues then it is a new page. What that means is that after moving from Code to Pull Requests, any JavaScript changes are reverted because large portions of the page body were re-written. Technically it's possible to find hacky ways around that, using event listeners or mutator observers or any other technique and try to force a re-initialization of the JavaScript when a new page is AJAX-loaded, but that would be extremely difficult to work correctly and would be non performant. So unfortunately only CSS is used.
+The reason is because of the strange way GitHub handles internal links: some pages are actual page reloads, but some pages are fully loaded with AJAX. This makes it impossible to use JavaScript to fix any UI issues, and only CSS can be used. If you're on the Code tab and you click on Pull Requests then you don't actually refresh the page, but if you click on Issues then it is a new page. What that means is that after moving from Code to Pull Requests, any JavaScript changes are reverted because large portions of the page body were re-written. Technically it's possible to find ways around that, using event listeners or mutator observers or any other technique and try to force a re-initialization of the JavaScript when a new page is AJAX-loaded, but that would code of a higher complexion level that is warranted by this extension.
 
 ## Screenshots
 
