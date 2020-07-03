@@ -53,10 +53,10 @@ body:not(.page-profile) .UnderlineNav-item.selected {
 }
 
 /* Content boxes border radius revert */
-.repository-content .Box {
+body .Box {
   border-radius: 3px;
 }
-.repository-content .Box .Box-header {
+body .Box .Box-header, body .Box-row:first-of-type {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -106,7 +106,16 @@ body .avatar-user {
 }
 
 /* Box border was slightly darker in classic design */
-body .Box {
+body .Box:not(.Box--danger), body .Box-header {
+  border-color: #d1d5da;
+}
+/* Hide duplicated red top border of danger boxes - probably a github oversight */
+body .Box--danger .Box-row:first-of-type {
+  border-top-color: transparent;
+}
+
+/* Form field borders were slightly darker in classic design */
+body .form-control {
   border-color: #d1d5da;
 }
 
@@ -135,17 +144,31 @@ body .IssueLabel--big.lh-condensed,
 body .btn {
   transition: none !important;
   font-weight: 600;
-  background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
   /* Set only border color here (not width) to avoid adding extra borders that shouldn't exists */
-  border-color: rgba(27,31,35,0.2);  
+  border-color: rgba(27,31,35,0.2);
+  /* these three background properties help the border color blend in better with the button color*/
+  background-repeat: repeat-x;
+  background-position: -1px -1px;
+  background-size: 110% 110%;
+  box-shadow: none;
 }
 body .btn:hover {
-  background: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+  background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
   border-color: rgba(27,31,35,0.35);
 }
-body [open]>.btn, body .btn:active {
+
+body [open] > .btn, body [open] > summary > .btn, body .btn:active {
   background: #e9ecef;
   border-color: rgba(27,31,35,0.35);
+  box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15);
+}
+/* 
+  The github stylesheet contains this rule:  body.intent-mouse a:focus { box-shadow: none }
+  It overrides the rule above and removes the inset shadow. This extra rule has higher specificity
+  to beat it and put the shadow back.  Adding !important to box-shadow above could also do the trick.
+*/
+html > body.intent-mouse [open] > .btn, html > body.intent-mouse .btn:active {
   box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15);
 }
 body .btn[disabled] {
@@ -155,12 +178,28 @@ body .btn[disabled] {
   border-color: rgba(27,31,35,.15);
 }
 
+/* Revert button icon colors/opacity */
+body .btn .octicon {
+  color: #24292e;
+}
+body .btn .dropdown-caret {
+  opacity: 1;
+}
+body .btn-primary .octicon {
+  color: #fff;
+}
+
+/* Match social count boxes to button styles */
+body .social-count {
+  border-color: rgba(27,31,35,0.2);
+  box-shadow: none;
+}
 
 body .btn-primary {
-  background: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+  background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
 }
 body .btn-primary:hover {
-  background: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
+  background-image: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
   border-color: rgba(27,31,35,0.5);
 }
 body [open]>.btn-primary, body .btn-primary:active {
