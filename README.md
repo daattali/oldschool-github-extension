@@ -88,3 +88,5 @@ This was written in just a couple hours and does not deal with some of the bigge
 ---
 
 To see my other projects, visit [https://deanattali.com/projects](https://deanattali.com/projects)
+
+When submitting to a browser extension store, remove the `img/doc/` folder and `generate-user-style.js`
