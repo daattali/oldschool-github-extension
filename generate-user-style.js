@@ -3,11 +3,10 @@ const { readFileSync, writeFileSync } = require('fs')
 const { join } = require('path')
 
 const source = readFileSync(join(__dirname, './css/osgh.css'), 'utf8')
-// Stylus requires Semver version
 const style = `
 /* ==UserStyle==
 @name         Old School GitHub
-@version      ${SemVerVer}
+@version      ${version}
 @description  Reverts most of GitHub to its classic look
 @license      MIT
 @author       daattali
