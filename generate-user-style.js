@@ -4,7 +4,6 @@ const { join } = require('path')
 
 const source = readFileSync(join(__dirname, './css/osgh.css'), 'utf8')
 // Stylus requires Semver version
-const SemVerVer = `${version}.0`
 const style = `
 /* ==UserStyle==
 @name         Old School GitHub
