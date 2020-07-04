@@ -1,4 +1,4 @@
-# Old School GitHub (Chrome / Firefox extension)
+# Old School GitHub (Chrome / Firefox extension / User Style)
 
 > *Copyright 2020 [Dean Attali](https://deanattali.com)*
 
