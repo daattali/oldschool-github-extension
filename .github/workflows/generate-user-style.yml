@@ -2,7 +2,7 @@ name: Generate User Style
 on:
   push:
     paths:
-      - css/osgh.css
+      - manifest.json
 jobs:
   generate:
     runs-on: ubuntu-latest
