@@ -1,18 +1,18 @@
 /* Move headers to the middle */
 @media (min-width: 1280px) {
-  main > .pagehead {
+  main > div.bg-gray-light {
     box-shadow: inset 0 -1px 0 #e1e4e8;
   }
-  main > .pagehead > div,
-  main > .pagehead > nav {
+  main > div.bg-gray-light > div,
+  main > div.bg-gray-light > nav {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
-  main > .pagehead > nav > ul > li > a {
+  main > div.bg-gray-light > nav > ul > li > a {
    visibility: visible !important;
   }
-  main > .pagehead > nav .js-responsive-underlinenav-overflow {
+  main > div.bg-gray-light > nav .js-responsive-underlinenav-overflow {
     display: none;
   }
 }
@@ -126,7 +126,7 @@ body .form-control {
 }
 
 /* Font weight revert for issue counters and labels */
-main > .pagehead > nav .Counter,
+main > div.bg-gray-light > nav .Counter,
 body .IssueLabel--big.lh-condensed,
 .IssueLabel {
   font-weight: 600;
