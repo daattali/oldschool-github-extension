@@ -284,3 +284,6 @@ body .user-status-circle-badge-container:hover .user-status-circle-badge {
 .user-status-message-wrapper .css-truncate.css-truncate-target {
   white-space: auto;
 }
+.user-status-message-wrapper.no-wrap {
+  white-space: normal !important;
+}
