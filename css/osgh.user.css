@@ -1,7 +1,7 @@
 
 /* ==UserStyle==
 @name         Old School GitHub
-@version      1.5.0
+@version      1.6.0
 @description  Reverts most of GitHub to its classic look
 @license      MIT
 @author       daattali
@@ -295,6 +295,9 @@ body .user-status-circle-badge-container:hover .user-status-circle-badge {
 }
 .user-status-message-wrapper .css-truncate.css-truncate-target {
   white-space: auto;
+}
+.user-status-message-wrapper.no-wrap {
+  white-space: normal !important;
 }
 
 }
