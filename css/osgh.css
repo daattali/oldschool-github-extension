@@ -1,18 +1,23 @@
 /* Move page headers to the middle */
 @media (min-width: 1280px) {
-  main > div.color-bg-secondary {
+  main > div.color-bg-secondary,
+  main > div.hx_page-header-bg {
     box-shadow: inset 0 -1px 0 #e1e4e8;
   }
   main > div.color-bg-secondary > div,
-  main > div.color-bg-secondary > nav {
+  main > div.color-bg-secondary > nav,
+  main > div.hx_page-header-bg > div, 
+  main > div.hx_page-header-bg > nav {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
-  main > div.color-bg-secondary > nav > ul > li > a {
+  main > div.color-bg-secondary > nav > ul > li > a,
+  main > div.hx_page-header-bg > nav > ul > li > a {
    visibility: visible !important;
   }
-  main > div.color-bg-secondary > nav .js-responsive-underlinenav-overflow {
+  main > div.color-bg-secondary > nav .js-responsive-underlinenav-overflow,
+  main > div.hx_page-header-bg > nav .js-responsive-underlinenav-overflow {
     display: none;
   }
 }
