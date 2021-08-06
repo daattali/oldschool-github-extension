@@ -1,6 +1,6 @@
 {
   "name": "Old School GitHub",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "manifest_version": 2,
   "description": "Revert GitHub's UI back to its classic look (before the June 23, 2020 update that has a flat, rounded and more whitespaced design).",
   "icons": {
