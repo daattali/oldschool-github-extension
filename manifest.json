@@ -18,5 +18,10 @@
       "run_at": "document_start"
     }
   ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{603f57ad-9038-4ee9-8352-bb25ec45d88b}"
+    }
+  },
   "homepage_url": "https://github.com/daattali/oldschool-github-extension"
 }
