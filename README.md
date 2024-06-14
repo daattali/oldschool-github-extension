@@ -1,6 +1,6 @@
 # Old School GitHub (Chrome / Firefox extension / User Style)
 
-> *Copyright 2021 [Dean Attali](https://deanattali.com)*
+> *Created by [Dean Attali](https://deanattali.com)*
 
 
 _Install the [Chrome extension](https://chrome.google.com/webstore/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) or [Firefox extension](https://addons.mozilla.org/addon/old-school-github/)_
